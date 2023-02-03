@@ -9,7 +9,7 @@ class Server {
 
     constructor() {
         this.app = express();
-        this.port = process.env.PORT;
+        this.port = process.env.PORT || 3000;
         this.usuariosPath = '/api/usuarios'
 
         // Middlewares - Funcion que siempre se va a ejecutar cada vez que levantemos el server
