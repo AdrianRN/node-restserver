@@ -1,6 +1,6 @@
 const { response } = require("express");
 const {Categoria} = require('../models')
-const { findOne } = require("../models/usuario");
+
 
 
 
